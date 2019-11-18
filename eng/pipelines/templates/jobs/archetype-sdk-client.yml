@@ -55,7 +55,7 @@ jobs:
     displayName: cmake version
   - task: CMake@1
     inputs:
-      cmakeArgs: -Duse_default_uuid=ON ..
+      cmakeArgs: ..
     displayName: cmake generate
   - task: CMake@1
     inputs:
